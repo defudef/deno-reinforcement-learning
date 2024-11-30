@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "train": "deno run --allow-read --allow-net train.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@tensorflow/tfjs": "npm:@tensorflow/tfjs@^4.22.0",
+    "@tensorflow/tfjs-backend-wasm": "npm:@tensorflow/tfjs-backend-wasm@^4.22.0"
+  },
+  "nodeModulesDir": "auto"
+}
